@@ -1,0 +1,21 @@
+{
+	"name": "networkteam/behat-capture",
+	"description": "Behat context for capturing screen recordings of tests with FFmpeg",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christopher Hlubek",
+			"email": "hlubek@networkteam.com",
+			"role": "developer"
+		}
+	],
+	"require": {
+		"behat/behat": "2.4.*",
+		"symfony/process": "2.3.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Networkteam\\Behat\\Capture": "src"
+		}
+	}
+}
