@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"behat/behat": "2.4.*",
+		"behat/behat": ">=2.4.0,<3.0-dev",
 		"symfony/process": "2.3.*"
 	},
 	"autoload": {
